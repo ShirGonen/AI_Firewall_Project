@@ -8,7 +8,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # הגדרת המודל שנעבוד איתו ב-Groq
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-20b"
 
 # בדיקה קטנה ששרת האפליקציה לא יעלה בלי מפתח
 if not GROQ_API_KEY:
